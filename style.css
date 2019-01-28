@@ -3,3 +3,35 @@
   margin: 0;
   padding: 0;
 }
+.container{
+  width: 1080px;
+  margin: auto;
+}
+nav{
+  height: 80px;
+}
+#nav_top:after{
+  clear: both;
+  content: "";
+  display: table;
+}
+.nav_left,.top_left,.top_right{
+  float: left;
+}
+.nav_right{
+  float: right;
+}
+.row{
+  clear: both;
+  content: "";
+  display: table;
+}
+#nav_top{
+  position: sticky;
+  top : 0;
+  width: 100%;
+  border-bottom: 1px solid #cbd6e2;
+}
+#nav_bottom{
+  width: 100%;
+}
