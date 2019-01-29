@@ -24,10 +24,10 @@ nav{
   z-index: 3;
   line-height: 80px;
 }
-.nav_left,.top_left,.top_right,.left,.column_left,.column_center,.column_right{
+.nav_left,.top_left,.top_right,.left,.column_left,.column_center,.column_right,.square,.half-left,.mini-square,.colu_four{
   float: left;
 }
-.nav_right,.right{
+.nav_right,.right,.half-right{
   float: right;
 }
 .logo{
@@ -46,7 +46,7 @@ nav{
   height: 33px;
   margin: 23px 0;
 }
-.row{
+.row:after{
   clear: both;
   content: "";
   display: table;
@@ -54,6 +54,7 @@ nav{
 }
 #nav_bottom{
   width: 100%;
+  line-height: 80px;
 }
 .pippo{
   width: 100%;
@@ -104,12 +105,13 @@ p{
   background-color: #fff;
   margin-bottom: 20px;
 }
-.left{
-  width: 35%;
+.left,.half-left{
+  width: 30%;
   text-align: center;
 }
-.right{
+.right,.half-right{
   width: 65%;
+  margin-left: 5%;
 }
 .book{
   padding: 30px;
@@ -123,4 +125,101 @@ p{
 .column_center{
   margin-left: 3.5%;
   margin-right: 3.5%;
+}
+.awards{
+  background-image: linear-gradient(45deg, #00a4bd, #00bda5);
+  background-size: cover;
+  height: 700px;
+  padding: 80px;
+}
+.square_all{
+  margin-top: 80px;
+}
+.top_square{
+  width: 100%;
+}
+.square{
+  width: 25%;
+  height: 185px;
+  margin-bottom: 1px solid #fff;
+}
+#customers{
+  padding: 100px 0 150px;
+}
+.mini-square{
+  padding: 20px;
+  width: 150px;
+}
+.size{
+  width: 100px;
+}
+#grow_with_us{
+  padding: 120px 0;
+}
+#grow_with_us>.half-right>{
+  text-align: right;
+}
+#red_image>img{
+  height: 565px;
+  background-color: #f2547d;
+  border-radius: 50%;
+}
+footer{
+  background-color: #33475b;
+  color: #fff;
+  height: 650px;
+  padding-top: 95px;
+}
+.colu_four{
+  width: 25%;
+}
+li{
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  margin-top: 10px;
+}
+#follow_us{
+  width: 100%
+}
+.fab{
+  width:18%;
+}
+#mini_container{
+  width: 70%;
+  padding: 40px 0;
+  margin: auto;
+  text-align: center;
+  height: 120px;
+  line-height: 40px;
+  font-size: 19px;
+}
+#mini_container > span{
+  width: 16%;
+}
+.footer_bottom{
+  padding: 40px 0;
+}
+#need_help{
+  width: 60px;
+  height: 60px;
+  background-color: rgb(66, 91, 118);
+  border-radius: 50%;
+  text-align: center;
+  position: relative;
+}
+#need_help>img{
+  color: #33475b;
+  width: 32px;
+  height: 32px;
+  background-color: rgb(66, 91, 118);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+
+}
+#widget{
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
 }
