@@ -35,16 +35,35 @@ nav{
   height: 16px;
 }
 .top_left,.top_right{
-  padding: 0 20px;
+  padding: 8px 15px;
   height: 100%;
+}
+.border_login{
+  border-radius: 3px;
+  border: 1px solid #ff7a59;
+}
+.ver_all{
+  position: relative;
+}
+#login{
+  width: 160px;
 }
 .bkgrnd_orange{
   background-color: #ff7a59;
   color: #fff;
-  border: 1px solid black;
-  width: 170px;
-  height: 33px;
-  margin: 23px 0;
+  border: 1px solid;
+}
+.top_right{
+  height: 40px;
+  margin: 19px 10px;
+  width: 80px;
+}
+.top_right > span{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
 }
 .row:after{
   clear: both;
@@ -216,7 +235,6 @@ li{
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
-
 }
 #widget{
   position: fixed;
