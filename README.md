@@ -7,16 +7,16 @@ Creare una copia della homepage di hubspot usando HTML , CSS e JS
 
 # Screenshot
 
-![](Screenshot_1.jpg)
+![](hubspot1.PNG)
 
 <hr>
 
-![](Screenshot_2.jpg)
+![](hubspot2.PNG)
 
 <hr>
 
-![](Screenshot_2.jpg)
+![](hubspot3.PNG)
 
 <hr>
 
-![](Screenshot_2.jpg)
+![](hubspot4.PNG)
